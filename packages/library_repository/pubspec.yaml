@@ -1,0 +1,21 @@
+name: library_repository
+description: Domain repository managing user manga library and reading history via Cloud Firestore.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.9"
+
+dependencies:
+  equatable: ^2.0.7
+  firestore_library_client:
+    path: ../firestore_library_client
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^11.0.0

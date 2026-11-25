@@ -1,0 +1,62 @@
+name: koma
+description: Koma — Offline-first manga reading progress tracker powered by MangaDex & Firebase.
+publish_to: none
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.9"
+
+dependencies:
+  auth_repository:
+    path: packages/auth_repository
+  bloc: ^9.0.0
+  cloud_firestore: ^5.6.5
+  dio: ^5.8.0+1
+  drift_flutter: ^0.3.1
+  equatable: ^2.0.7
+  firebase_auth: ^5.5.1
+  firebase_auth_client:
+    path: packages/firebase_auth_client
+  firebase_core: ^3.12.1
+  firebase_messaging: ^15.2.4
+  firestore_library_client:
+    path: packages/firestore_library_client
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.0
+  flutter_localizations:
+    sdk: flutter
+  go_router: ^18.1.4
+  intl: any
+  koma_cache_client:
+    path: packages/koma_cache_client
+  koma_ui:
+    path: packages/koma_ui
+  library_repository:
+    path: packages/library_repository
+  manga_repository:
+    path: packages/manga_repository
+  mangadex_api_client:
+    path: packages/mangadex_api_client
+  notifications_repository:
+    path: packages/notifications_repository
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  bloc_test: ^10.0.0
+  build_runner: ^2.15.0
+  flutter_test:
+    sdk: flutter
+  go_router_builder: ^4.5.3
+  integration_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^11.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/branding/
+    - assets/illustrations/

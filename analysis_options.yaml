@@ -1,0 +1,14 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.drift.dart"
+    - "lib/l10n/gen/**"
+    - build/**
+    - android/**
+    - ios/**
+
+linter:
+  rules:
+    sort_pub_dependencies: false

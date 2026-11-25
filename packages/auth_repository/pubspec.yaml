@@ -1,0 +1,21 @@
+name: auth_repository
+description: Domain repository wrapping Firebase Authentication for Koma.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.9"
+
+dependencies:
+  equatable: ^2.0.7
+  firebase_auth_client:
+    path: ../firebase_auth_client
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^11.0.0

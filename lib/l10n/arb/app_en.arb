@@ -1,0 +1,357 @@
+{
+  "@@locale": "en",
+  "appTitle": "Koma",
+  "@appTitle": {
+    "description": "Application name"
+  },
+  "appTagline": "Your offline-first manga progress tracker",
+  "loginTitle": "Sign in to Koma",
+  "signUpTitle": "Create Koma account",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "displayNameLabel": "Display name (optional)",
+  "signInButton": "Sign In",
+  "signUpButton": "Create Account",
+  "switchToSignUp": "New here? Create an account",
+  "switchToSignIn": "Already have an account? Sign in",
+  "continueWithGoogle": "Continue with Google",
+  "devQuickLoginButton": "QA Test Account Sign-In",
+  "authInvalidCredentialsError": "Invalid email or password.",
+  "authEmailAlreadyInUseError": "An account with this email already exists.",
+  "authWeakPasswordError": "Password must be at least 6 characters.",
+  "authNetworkError": "Network error. Check your connection and try again.",
+  "authGoogleCancelledError": "Google sign-in was cancelled.",
+  "authUnknownError": "Authentication failed. Please try again.",
+  "navLibrary": "Library",
+  "navDiscover": "Discover",
+  "navHistory": "History",
+  "navSettings": "Settings",
+  "statusAll": "All",
+  "statusReading": "Reading",
+  "statusPlanToRead": "Plan to Read",
+  "statusCompleted": "Completed",
+  "statusOnHold": "On Hold",
+  "statusDropped": "Dropped",
+  "libraryTitle": "Library",
+  "homeSectionToRead": "To Read",
+  "homeSectionCaughtUp": "Caught Up",
+  "homeSectionFinished": "On Hold / Finished",
+  "homeUpToDateTitle": "Wow!",
+  "homeUpToDateDescription": "You're up to date with everything",
+  "homeUpToDateAction": "Discover new Manga",
+  "markAllCaughtUpAction": "Mark all released chapters as read",
+  "sectionCollapseSemantics": "Toggle {section} section",
+  "@sectionCollapseSemantics": {
+    "placeholders": {
+      "section": {
+        "type": "String"
+      }
+    }
+  },
+  "librarySearchHint": "Filter library...",
+  "libraryEmptyTitle": "Your library is empty",
+  "libraryEmptyDescription": "Search MangaDex to track chapters, volumes, and reading progress.",
+  "libraryEmptyAction": "Discover Manga",
+  "libraryFilterEmptyTitle": "No titles match this filter",
+  "libraryFilterEmptyDescription": "Try clearing your search or selecting another reading status.",
+  "libraryClearFilters": "Clear filters",
+  "libraryUnreadChapters": "{count} unread",
+  "@libraryUnreadChapters": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "chaptersReadProgress": "Ch. {chapter}",
+  "@chaptersReadProgress": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "removeFromLibrary": "Remove from library",
+  "removeFromLibraryConfirmTitle": "Remove from library?",
+  "removeFromLibraryConfirmBody": "This removes the manga and its progress markers from your library. Reading history events remain intact.",
+  "cancelAction": "Cancel",
+  "confirmAction": "Confirm",
+  "removeAction": "Remove",
+  "discoverTitle": "Discover",
+  "discoverSearchHint": "Search manga titles on MangaDex...",
+  "discoverPopularHeader": "Popular on MangaDex",
+  "discoverResultsHeader": "Search results",
+  "discoverEmptyTitle": "No manga found",
+  "discoverEmptyDescription": "No matching titles were found on MangaDex for your query.",
+  "discoverRateLimitError": "MangaDex rate limit reached. Please wait a moment and retry.",
+  "discoverOfflineNotice": "Offline mode: showing cached results where available.",
+  "retryAction": "Retry",
+  "refreshTooltip": "Refresh",
+  "mangaDetailTitle": "Manga Details",
+  "addToLibrary": "Add to Library",
+  "inLibrary": "In Library",
+  "changeStatus": "Change status",
+  "synopsisTitle": "Synopsis",
+  "noSynopsis": "No description available.",
+  "chaptersProgressFraction": "Ch. {read} / {total}",
+  "@chaptersProgressFraction": {
+    "placeholders": {
+      "read": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "continueChapterLabel": "Continue Ch. {chapter}",
+  "@continueChapterLabel": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "volumesAndChaptersTitle": "Volumes & Chapters",
+  "volumeLabel": "Volume {number}",
+  "@volumeLabel": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "unassignedChaptersLabel": "Unassigned Chapters",
+  "volumeProgressSummary": "{read}/{total} read",
+  "@volumeProgressSummary": {
+    "placeholders": {
+      "read": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "markVolumeReadTooltip": "Mark volume as read",
+  "markVolumeUnreadTooltip": "Volume already read",
+  "chapterLabel": "Ch. {number}",
+  "@chapterLabel": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "markPreviousReadTooltip": "Mark previous as read",
+  "openMangaDexTooltip": "Open chapter on MangaDex",
+  "externalMangaDexHost": "MangaDex",
+  "bulkReadSheetTitle": "Mark previous chapters as read?",
+  "bulkReadSheetMessage": "Mark Ch. {chapter} and all {count} unread previous chapters as read in your library?",
+  "@bulkReadSheetMessage": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bulkReadSheetConfirm": "Mark {count} Chapters",
+  "@bulkReadSheetConfirm": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "bulkReadAllAlreadyRead": "All previous chapters up to Ch. {chapter} are already read.",
+  "@bulkReadAllAlreadyRead": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "externalLinkError": "Unable to open MangaDex in external browser.",
+  "chapterUnavailableNotice": "This chapter is currently unavailable on MangaDex.",
+  "historyTitle": "Reading History",
+  "historyEmptyTitle": "No reading history yet",
+  "historyEmptyDescription": "Mark a chapter or volume as read to build your reading timeline.",
+  "historyActionChapterRead": "Read Chapter {chapter}",
+  "@historyActionChapterRead": {
+    "placeholders": {
+      "chapter": {
+        "type": "String"
+      }
+    }
+  },
+  "historyActionVolumeRead": "Completed Volume {volume} ({count} ch.)",
+  "@historyActionVolumeRead": {
+    "placeholders": {
+      "volume": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "historyActionBulkRead": "Marked {count} chapters read",
+  "@historyActionBulkRead": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsTitle": "Settings",
+  "settingsAccountSection": "Account",
+  "settingsSignedInAs": "Signed in as {email}",
+  "@settingsSignedInAs": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsReadingSection": "Reading Preferences",
+  "settingsUiLanguage": "App Language",
+  "settingsLanguageEnglish": "English",
+  "settingsLanguageItalian": "Italiano",
+  "settingsScanlationLanguages": "Preferred MangaDex Languages",
+  "settingsContentRatings": "Content Rating Filters",
+  "settingsRatingSafe": "Safe",
+  "settingsRatingSuggestive": "Suggestive",
+  "settingsRatingErotica": "Erotica",
+  "settingsNotificationsSection": "Notifications",
+  "settingsNotificationsToggle": "Daily New Chapter Alerts",
+  "settingsNotificationsSubtitle": "Receive push alerts when tracked series release chapters.",
+  "settingsSyncTokenButton": "Sync Push Token Now",
+  "settingsTokenSyncedMessage": "Device push token synced.",
+  "settingsSavedMessage": "Preferences saved.",
+  "settingsSignOutButton": "Sign Out",
+  "settingsSignOutConfirmTitle": "Sign out of Koma?",
+  "settingsSignOutConfirmBody": "You can sign back in anytime to restore your synced library.",
+  "genericErrorTitle": "Something went wrong",
+  "discoverClearSearchTooltip": "Clear search",
+  "libraryClearSearchTooltip": "Clear search query",
+  "showPasswordTooltip": "Show password",
+  "hidePasswordTooltip": "Hide password",
+  "authEmailRequiredError": "Enter your email address.",
+  "authPasswordRequiredError": "Enter your password.",
+  "loadingLabel": "Loading...",
+  "mangaCardSemanticsWithAuthor": "{title}, by {author}",
+  "@mangaCardSemanticsWithAuthor": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "author": { "type": "String" }
+    }
+  },
+  "mangaCardUnreadSemantics": "{count} unread chapters",
+  "@mangaCardUnreadSemantics": {
+    "placeholders": {
+      "count": { "type": "int" }
+    }
+  },
+  "mangaCardProgressSemantics": "{percent}% completed",
+  "@mangaCardProgressSemantics": {
+    "placeholders": {
+      "percent": { "type": "int" }
+    }
+  },
+  "statusChipSemantics": "{label} filter status",
+  "@statusChipSemantics": {
+    "placeholders": {
+      "label": { "type": "String" }
+    }
+  },
+  "chapterRowMarkReadSemantics": "Mark Chapter {number} as read",
+  "@chapterRowMarkReadSemantics": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "chapterRowMarkUnreadSemantics": "Mark Chapter {number} as unread",
+  "@chapterRowMarkUnreadSemantics": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "chapterRowOpenMangaDexSemantics": "Open Chapter {number} on MangaDex",
+  "@chapterRowOpenMangaDexSemantics": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "chapterRowMarkPreviousSemantics": "Mark previous chapters as read up to Chapter {number}",
+  "@chapterRowMarkPreviousSemantics": {
+    "placeholders": {
+      "number": { "type": "String" }
+    }
+  },
+  "chapterRowTapHint": "Toggle chapter read state",
+  "chapterRowLongPressHint": "Mark previous chapters as read",
+  "volumeTileMarkSemantics": "{action}: {volumeTitle}",
+  "@volumeTileMarkSemantics": {
+    "placeholders": {
+      "action": { "type": "String" },
+      "volumeTitle": { "type": "String" }
+    }
+  },
+  "progressHeaderSummary": "{read} of {total} chapters",
+  "@progressHeaderSummary": {
+    "placeholders": {
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "progressHeaderSemantics": "{percent}% complete, {read} of {total} chapters read",
+  "@progressHeaderSemantics": {
+    "placeholders": {
+      "percent": { "type": "int" },
+      "read": { "type": "int" },
+      "total": { "type": "int" }
+    }
+  },
+  "progressHeaderCoverSemantics": "Cover art for {title}",
+  "@progressHeaderCoverSemantics": {
+    "placeholders": {
+      "title": { "type": "String" }
+    }
+  },
+  "homeQuickMarkReadLabel": "Read Ch. {chapter}",
+  "@homeQuickMarkReadLabel": {
+    "placeholders": {
+      "chapter": { "type": "String" }
+    }
+  },
+  "homeQuickMarkReadSemantics": "Read Ch. {chapter}, mark {title} chapter {chapter} as read",
+  "@homeQuickMarkReadSemantics": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "chapter": { "type": "String" }
+    }
+  },
+  "homeQuickMarkReadSuccess": "Marked {title} Ch. {chapter} as read",
+  "@homeQuickMarkReadSuccess": {
+    "placeholders": {
+      "title": { "type": "String" },
+      "chapter": { "type": "String" }
+    }
+  },
+  "detailQuickMarkLatestLabel": "Mark Ch. {chapter} as read",
+  "@detailQuickMarkLatestLabel": {
+    "placeholders": {
+      "chapter": { "type": "String" }
+    }
+  },
+  "detailQuickMarkLatestSemantics": "Mark Ch. {chapter} as read, latest unread chapter of {title}",
+  "@detailQuickMarkLatestSemantics": {
+    "placeholders": {
+      "chapter": { "type": "String" },
+      "title": { "type": "String" }
+    }
+  }
+}

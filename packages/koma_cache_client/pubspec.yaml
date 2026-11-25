@@ -1,0 +1,19 @@
+name: koma_cache_client
+description: Drift SQLite metadata and chapter aggregate cache client for Koma.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  drift: ^2.35.4
+  meta: ^1.16.0
+  path: ^1.9.1
+  sqlite3: ^3.9.1
+
+dev_dependencies:
+  build_runner: ^2.17.1
+  drift_dev: ^2.35.3
+  test: ^1.25.15
+  very_good_analysis: ^11.0.0

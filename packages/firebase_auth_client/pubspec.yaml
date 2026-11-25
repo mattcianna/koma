@@ -1,0 +1,22 @@
+name: firebase_auth_client
+description: Firebase Authentication and Google Sign-In data client for Koma.
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.9"
+
+dependencies:
+  equatable: ^2.0.7
+  firebase_auth: ^5.5.1
+  firebase_core: ^3.12.1
+  flutter:
+    sdk: flutter
+  google_sign_in: ^6.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^11.0.0
